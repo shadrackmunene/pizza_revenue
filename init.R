@@ -1,4 +1,4 @@
-my_packages = c("timetk", "DT")
+my_packages = c("timetk", "tidyverse")
 
 install_if_missing = function(p) {
     if (p %in% rownames(installed.packages()) == FALSE) {
