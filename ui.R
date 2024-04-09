@@ -4,6 +4,9 @@ library(shiny)
 library(shinyWidgets)
 library(shinyjs)
 library(shinythemes)
+library(tidyverse)
+library(plotly)
+
 # Get data----
 
 pizza_raw_df <- readRDS("00_data/pizza_category_tbl.rds")
