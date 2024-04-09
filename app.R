@@ -13,8 +13,8 @@ library(shinythemes)
 # Analysis
 library(tidyverse)
 library(timetk)
-library(lubridate)
-library(plotly)
+#library(lubridate)
+#library(plotly)
 library(DT)
 
 # Get data----
