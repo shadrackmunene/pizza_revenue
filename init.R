@@ -1,4 +1,5 @@
-my_packages = c("timetk", "tidyverse")
+my_packages = c("timetk", "tidyverse","shinyWidgets","shinyjs","shinythemes")
+
 
 install_if_missing = function(p) {
     if (p %in% rownames(installed.packages()) == FALSE) {
