@@ -1,4 +1,4 @@
-my_packages = c("timetk", "tidyverse","shinyWidgets","shinyjs","shinythemes")
+my_packages = c("timetk", "tidyverse","shinyWidgets","shinyjs","shinythemes","plotly")
 
 
 install_if_missing = function(p) {

@@ -8,6 +8,7 @@ library(shinythemes)
 # Analysis
 library(tidyverse)
 library(timetk)
+library(plotly)
 
 port <- Sys.getenv('PORT')
 

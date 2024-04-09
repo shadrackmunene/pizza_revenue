@@ -9,6 +9,7 @@ library(shiny)
 library(shinyWidgets)
 library(shinyjs)
 library(shinythemes)
+library(plotly)
 
 # Analysis
 library(tidyverse)
