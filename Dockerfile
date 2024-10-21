@@ -1,6 +1,5 @@
 FROM rocker/r-ver
 
-#ENV RENV_VERSION=v1.0.2
 #RUN R -e "install.packages('remotes')"
 #RUN R -e "install.packages(c('timetk'), repos='https://cloud.r-project.org/')"
 #RUN R -e "remotes::install_github('rstudio/renv@${RENV_VERSION}')"
