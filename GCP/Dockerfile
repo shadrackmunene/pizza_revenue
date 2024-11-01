@@ -13,9 +13,9 @@ WORKDIR /app
 
 RUN R -e "options(renv.config.repos.override = 'https://packagemanager.posit.co/cran/latest'); renv::restore()"
 
-EXPOSE 3838 # AZURE
-#EXPOSE 8080 #GCP
+#EXPOSE 3838 # AZURE
+EXPOSE 8080 #GCP
 
-CMD ["R", "-e", "shiny::runApp('./app.R', host='0.0.0.0', port=3838)"] # AZURE
+#CMD ["R", "-e", "shiny::runApp('./app.R', host='0.0.0.0', port=3838)"] # AZURE
 
-#CMD ["R", "-e", "shiny::runApp('./app.R', host='0.0.0.0', port=3838)"] # GCP
+CMD ["R", "-e", "shiny::runApp('./app.R', host='0.0.0.0', port=3838)"] # GCP
